@@ -62,7 +62,7 @@ frontend/.next/
 .dockerignore
 
 # Data and outputs
-backend/data/
+
 backend/data copy/
 backend/agents/__pycache__/
 backend/services/__pycache__/
