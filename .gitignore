@@ -1,0 +1,94 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/__pycache__/
+
+# Environment variables
+.env
+*.env
+!.env.example
+!.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+out/
+
+# Frontend build
+frontend/dist/
+frontend/build/
+frontend/.next/
+
+# Docker
+.dockerignore
+
+# Data and outputs
+backend/data/
+backend/data copy/
+backend/agents/__pycache__/
+backend/services/__pycache__/
+backend/mcp/__pycache__/
+
+# Generated files
+frontend/public/pitchbook_final_output.txt
+frontend/public/workflow.json
+
+# Keep example files
+!*example*
+!*template*
+
+# Testing
+coverage/
+.coverage
+*.cover
+.pytest_cache/
+.nyc_output/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
